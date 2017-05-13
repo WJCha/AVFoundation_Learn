@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1DD0E41EC6D38E00E5D22F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1DD0E31EC6D38E00E5D22F /* Foundation+Log.m */; };
+		DFFB0CF81EC497B10042BCD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB0CF71EC497B10042BCD9 /* main.m */; };
+		DFFB0CFB1EC497B10042BCD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB0CFA1EC497B10042BCD9 /* AppDelegate.m */; };
+		DFFB0CFE1EC497B10042BCD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB0CFD1EC497B10042BCD9 /* ViewController.m */; };
+		DFFB0D011EC497B10042BCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFB0CFF1EC497B10042BCD9 /* Main.storyboard */; };
+		DFFB0D031EC497B10042BCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFB0D021EC497B10042BCD9 /* Assets.xcassets */; };
+		DFFB0D061EC497B10042BCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFB0D041EC497B10042BCD9 /* LaunchScreen.storyboard */; };
+		DFFB0D0E1EC497D30042BCD9 /* 全孝盛 - 迷住(Into You).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFFB0D0D1EC497D30042BCD9 /* 全孝盛 - 迷住(Into You).mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF1DD0E31EC6D38E00E5D22F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		DFFB0CF31EC497B10042BCD9 /* AVAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB0CF71EC497B10042BCD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFFB0CF91EC497B10042BCD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFFB0CFA1EC497B10042BCD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFFB0CFC1EC497B10042BCD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFFB0CFD1EC497B10042BCD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFFB0D001EC497B10042BCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFFB0D021EC497B10042BCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFFB0D051EC497B10042BCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFFB0D071EC497B10042BCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFB0D0D1EC497D30042BCD9 /* 全孝盛 - 迷住(Into You).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "全孝盛 - 迷住(Into You).mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFB0CF01EC497B10042BCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFFB0CEA1EC497B10042BCD9 = {
+			isa = PBXGroup;
+			children = (
+				DFFB0CF51EC497B10042BCD9 /* AVAudioPlayer */,
+				DFFB0CF41EC497B10042BCD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFB0CF41EC497B10042BCD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB0CF31EC497B10042BCD9 /* AVAudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFB0CF51EC497B10042BCD9 /* AVAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB0CF91EC497B10042BCD9 /* AppDelegate.h */,
+				DFFB0CFA1EC497B10042BCD9 /* AppDelegate.m */,
+				DFFB0CFC1EC497B10042BCD9 /* ViewController.h */,
+				DFFB0CFD1EC497B10042BCD9 /* ViewController.m */,
+				DFFB0CFF1EC497B10042BCD9 /* Main.storyboard */,
+				DFFB0D021EC497B10042BCD9 /* Assets.xcassets */,
+				DFFB0D041EC497B10042BCD9 /* LaunchScreen.storyboard */,
+				DFFB0D071EC497B10042BCD9 /* Info.plist */,
+				DFFB0CF61EC497B10042BCD9 /* Supporting Files */,
+			);
+			path = AVAudioPlayer;
+			sourceTree = "<group>";
+		};
+		DFFB0CF61EC497B10042BCD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF1DD0E31EC6D38E00E5D22F /* Foundation+Log.m */,
+				DFFB0D0D1EC497D30042BCD9 /* 全孝盛 - 迷住(Into You).mp3 */,
+				DFFB0CF71EC497B10042BCD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFB0CF21EC497B10042BCD9 /* AVAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFB0D0A1EC497B10042BCD9 /* Build configuration list for PBXNativeTarget "AVAudioPlayer" */;
+			buildPhases = (
+				DFFB0CEF1EC497B10042BCD9 /* Sources */,
+				DFFB0CF01EC497B10042BCD9 /* Frameworks */,
+				DFFB0CF11EC497B10042BCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAudioPlayer;
+			productName = AVAudioPlayer;
+			productReference = DFFB0CF31EC497B10042BCD9 /* AVAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFB0CEB1EC497B10042BCD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ChenWeiJie;
+				TargetAttributes = {
+					DFFB0CF21EC497B10042BCD9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 8AN75S9694;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DFFB0CEE1EC497B10042BCD9 /* Build configuration list for PBXProject "AVAudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFB0CEA1EC497B10042BCD9;
+			productRefGroup = DFFB0CF41EC497B10042BCD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFB0CF21EC497B10042BCD9 /* AVAudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFB0CF11EC497B10042BCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB0D061EC497B10042BCD9 /* LaunchScreen.storyboard in Resources */,
+				DFFB0D031EC497B10042BCD9 /* Assets.xcassets in Resources */,
+				DFFB0D011EC497B10042BCD9 /* Main.storyboard in Resources */,
+				DFFB0D0E1EC497D30042BCD9 /* 全孝盛 - 迷住(Into You).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFB0CEF1EC497B10042BCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFB0CFE1EC497B10042BCD9 /* ViewController.m in Sources */,
+				DFFB0CFB1EC497B10042BCD9 /* AppDelegate.m in Sources */,
+				DFFB0CF81EC497B10042BCD9 /* main.m in Sources */,
+				DF1DD0E41EC6D38E00E5D22F /* Foundation+Log.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFFB0CFF1EC497B10042BCD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFB0D001EC497B10042BCD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFFB0D041EC497B10042BCD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFB0D051EC497B10042BCD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFB0D081EC497B10042BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFFB0D091EC497B10042BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFFB0D0B1EC497B10042BCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8AN75S9694;
+				INFOPLIST_FILE = AVAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weijie.WRYHttfDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		DFFB0D0C1EC497B10042BCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8AN75S9694;
+				INFOPLIST_FILE = AVAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weijie.WRYHttfDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFB0CEE1EC497B10042BCD9 /* Build configuration list for PBXProject "AVAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB0D081EC497B10042BCD9 /* Debug */,
+				DFFB0D091EC497B10042BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFB0D0A1EC497B10042BCD9 /* Build configuration list for PBXNativeTarget "AVAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFB0D0B1EC497B10042BCD9 /* Debug */,
+				DFFB0D0C1EC497B10042BCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFB0CEB1EC497B10042BCD9 /* Project object */;
+}
